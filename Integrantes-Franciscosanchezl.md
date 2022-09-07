@@ -1,4 +1,4 @@
-i.i1 [Francisco Sanchez](https://github.com/Franciscosanchezl) 18/04+
+i.i1 [Francisco Sanchez](https://github.com/Franciscosanchezl) 18/04
 
 i.i2 [Ricardo Miranda](https://github.com/Rcrdo0409) 23/06
 
