@@ -1,5 +1,5 @@
-i.i1 [Francisco Sanchez](https://github.com/Franciscosanchezl) 18/04
+i.i1 Francisco Sanchez 18/04
 
-
+i.i3 [Luis Zavala](https://github.com/Alezavala97) 22/03
 
 iiiii.i5 Sebastian Danker 23/01
