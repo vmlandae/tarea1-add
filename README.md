@@ -54,7 +54,7 @@ Todos los archivos de datos se encuentran en la carpeta `data/raw`. **NO LOS MOD
 0. Crea un nuevo notebook de jupyter, guárdelo en la carpeta notebooks con el nombre `3_nb_***.ipynb` donde `***` es el github del integrante 1. Una vez que tenga todo el ejercicio listo, limpie los outputs, reinicie el kernel y corra todo el notebook. Luego, exporta el notebook como html y guárdalo en la carpeta `output`.
 1. En el notebook `3_nb_***.ipynb`, cargue los dos archivos `d2019.csv` y `d2020.txt` en dos dataframes llamados `df2019` y `df2020` respectivamente. Luego, usando el método `melt`, genera un dataframe llamado `df_sii` donde estén incluidos los datos del 2019 y del 2020, que tenga las columnas `year`,`mes`, `dia`, `valor`, y guardalo como csv en la carpeta `data/interim` con el nombre `df_sii.csv`.     
 2. Usando el método `groupby` en `df_sii`:
-    * Agrupa por `mes`, con el argumento `as_index = True` y usando el método `aggregation` con el método `mean`, imprime el resultado.
+    * Agrupa por `mes`, con el argumento `as_index = True` y usando el método `aggregate` con el método `mean`, imprime el resultado.
     * Agrupa por `[year, mes]`, con el argumento `as_index = False` y usando el método `agg` con el método `mean`, imprime el resultado
     * Compara ambos resultados. ¿Qué cambia al usar `as_index = False`? ¿Al agrupar por `mes`, con respecto a `[year,mes]`?
 3. ¿Qué podrías inferir de los *missing values* y los días hábiles? Úsalos para crear una nueva variable llamada `dia_de_la_semana` en `df_sii` con valores "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo".
