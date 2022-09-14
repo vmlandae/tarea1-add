@@ -29,7 +29,7 @@ donde `DD/MM` es el día y mes de cumpleaños del integrante en formato `04/09` 
 
 Todos los archivos de datos se encuentran en la carpeta `data/raw`. **NO LOS MODIFIQUE**, solo lealos y guarde nuevos archivos cuando lo crea conveniente en la carpeta `data/interim` o si ya están totalmente procesados, o cuando se le indique, en la carpeta `data/processed`.
 
-0. Cree un notebook de jupyter, guárdelo en la carpeta notebooks con el nombre `2_nb_***.ipynb` donde `***` es el github del integrante 1. Una vez que tenga todo el ejercicio listo, limpie los outputs, reinicie el kernel y corra todo el notebook. Luego, exporta el notebook como html y guárdalo en la carpeta `output`.
+0. Cree un notebook de jupyter, guárdelo en la carpeta notebooks con el nombre `2_nb_***.ipynb` donde `***` es el github del integrante 1. Una vez que tenga todo el ejercicio listo, limpie los outputs, reinicie el kernel y corra todo el notebook. Luego, exporta el notebook como html y guárdalo en la carpeta `output`. **Nota: Deben crear la carpeta `output` en su repositorio local y luego hacer un push para que quede creada en el repositorio en GitHub**.
 
 1. Cargue el archivo `dolar_2019_sii.csv` a un dataframe que se llame `dolar_2019` usando `pandas`. ¿Que argumento necesita `pd.read_csv()` para leer las columnas correctamente?
 2. Explore el archivo `dolar_2020_sii.txt`. ¿Qué estructura tiene, en que se diferencia y en qué es igual al dataframe anterior?  ¿Qué método y argumento hay que usar para leer las columnas correctamente?. Carguelo en un dataframe llamado `dolar_2020_txt`.
